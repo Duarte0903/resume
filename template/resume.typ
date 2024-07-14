@@ -133,7 +133,7 @@
 ]
 
 #resume-entry(
-  title: "Serviço de tramsferência de ficheiros",
+  title: "Serviço de transferência de ficheiros",
   location: [#github-link("Duarte0903/CC_UMinho")],
   date: "setembro 2023 - dezembro 2023",
   description: "Universidade do Minho - Comunicações por Computador",
@@ -149,7 +149,7 @@
 = Skills
 
 #resume-skill-item(
-  "Languagens",
+  "Linguagens",
   ( "C++", 
     "C",
     "C#",
