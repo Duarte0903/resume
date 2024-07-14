@@ -161,4 +161,23 @@
     "CSS"
   ),
 )
+
+#resume-skill-item(
+  "Frameworks",
+  ( "React",
+    "Vue",
+    "Blazor",
+    "Express",
+  ),
+)
+
+#resume-skill-item(
+  "Ferramentas",
+  ( "Git",
+    "Docker",
+    "MongoDB",
+    "SQL Server",
+  ),
+)
+
 #resume-skill-item("Linguas faladas", ("Português", "Inglês", "Espanhol"))
