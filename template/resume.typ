@@ -180,4 +180,18 @@
   ),
 )
 
-#resume-skill-item("Linguas faladas", ("Português", "Inglês", "Espanhol"))
+#resume-skill-item("Linguas faladas", 
+                  (
+                    "Português", 
+                    "Inglês", 
+                    "Espanhol"
+                  ))
+
+#resume-skill-item("Soft-skills",
+                  (
+                    "Trabalho em equipa",
+                    "Comunicação",
+                    "Gestão de tempo",
+                    "Resolução de problemas",
+                    "Adaptabilidade"
+                  ))
