@@ -21,6 +21,13 @@
 = Educação
 
 #resume-entry(
+  title: "Colégio La Salle",
+  location: "Barcelos",
+  date: "2016 - 2021",
+  description: "Ciências e Tecnologias",
+)
+
+#resume-entry(
   title: "Universidade do Minho",
   location: "Braga",
   date: "setembro 2021 - Presente",
@@ -28,6 +35,13 @@
 )
 
 = Certificações
+
+#resume-entry(
+  title: "Quadro de ExceLência (x6)",
+  location: "Barcelos",
+  date: "2014-2021",
+  description: "Colégio La Salle",
+)
 
 #resume-entry(
   title: "Certificate in Advanced English (C1)",
@@ -99,6 +113,8 @@
   - Ferramentas - React, Vite, i18next, GitHub Pages
 ]
 
+#pagebreak()
+
 #resume-entry(
   title: "Plataforma de leilões online",
   location: [#github-link("Duarte0903/LI4_UMinho")],
@@ -113,8 +129,6 @@
   - Dashboard de administrador
   - Ferramentas - Blazor, SQL Server
 ]
-
-#pagebreak()
 
 #resume-entry(
   title: "Desenvolvimento de uma interface de sistema",
@@ -144,6 +158,20 @@
   - Existe uma entidade central que trata das conecções e controla que ficheiros cada nó tem
   - Utilização de TCP e UDP
   - Ferramentas - Java
+]
+
+#resume-entry(
+  title: "Compilador de Forth",
+  location: [#github-link("Duarte0903/PL_UMinho")],
+  date: "fevereiro 2023 - junho 2023",
+  description: "Universidade do Minho - Processamento de Linguagens",
+)
+
+#resume-item[
+  - Compilador para a linguagem Forth que gera código para uma máquina virtual 
+  - Gramática tradutora baseada em PLY-Yacc
+  - Analisador léxico implementado com PLY-Lex
+  - Ferramentas - Python
 ]
 
 = Skills
