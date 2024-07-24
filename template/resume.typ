@@ -30,14 +30,14 @@
 #resume-entry(
   title: "Universidade do Minho",
   location: "Braga",
-  date: "setembro 2021 - Presente",
+  date: "setembro 2021 - julho 2024",
   description: "Licenciatura em Engenharia Informática",
 )
 
 = Certificações
 
 #resume-entry(
-  title: "Quadro de ExceLência (x6)",
+  title: "Quadro de Excelência (x6)",
   location: "Barcelos",
   date: "2014-2021",
   description: "Colégio La Salle",
