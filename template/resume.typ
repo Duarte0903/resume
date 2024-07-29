@@ -7,7 +7,7 @@
     email: "duarte0903@gmail.com",
     phone: "(+351) 939 761 195",
     github: "Duarte0903",
-    linkedin: "www.linkedin.com/in/duartemleitao",
+    linkedin: "duartemleitao",
     address: "Barcelos, Braga",
     positions: (
       "Engenheiro Informático",
@@ -172,6 +172,19 @@
   - Gramática tradutora baseada em PLY-Yacc
   - Analisador léxico implementado com PLY-Lex
   - Ferramentas - Python
+]
+
+#resume-entry(
+  title: "Serviços de troca de mensagens",
+  location: [#github-link("Duarte0903/SSI_UMinho")],
+  date: "fevereiro 2023 - junho 2023",
+  description: "Universidade do Minho - Segurança de Sistemas Informáticos",
+)
+
+#resume-item[
+  - Serviço 1: serviço de troca de mensagens encriptadas que utiliza o protocolo Diffie-Hellman. São ainda utilizados certificados x503 e o protocolo Station-to-Station.
+  - Serviço 2: serviço de troca de mensagens que funciona com os utilizadores e grupos do sistema Linux. É possivel enviar mensagens para um utilizador ou para um grupo.
+  - Ferramentas - Python, C 
 ]
 
 = Skills
