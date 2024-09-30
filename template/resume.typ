@@ -21,17 +21,24 @@
 = Educação
 
 #resume-entry(
-  title: "Colégio La Salle",
+  title: "Ciências e Tecnologias",
   location: "Barcelos",
   date: "2016 - 2021",
-  description: "Ciências e Tecnologias",
+  description: "Colégio La Salle",
 )
 
 #resume-entry(
-  title: "Universidade do Minho",
+  title: "Licenciatura em Engenharia Informática",
   location: "Braga",
   date: "setembro 2021 - julho 2024",
-  description: "Licenciatura em Engenharia Informática",
+  description: "Universidade do Minho",
+)
+
+#resume-entry(
+  title: "Mestrado em Engenharia Informática",
+  location: "Braga",
+  date: "setembro 2024 - Presente",
+  description: "Universidade do Minho"
 )
 
 = Certificações
