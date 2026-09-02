@@ -1,4 +1,4 @@
-#import "@preview/modern-cv:0.4.0": *
+#import "../lib.typ": *
 
 #show: resume.with(
   author: (
@@ -20,16 +20,9 @@
 
 = Summary
 
-Master's student in Computer Engineering with proven experience in full-stack development, AI tools, and team management. Strong leadership track record at FSUMinho, consistent academic excellence, and experience delivering scalable web and systems solutions. Fluent in Portuguese and English, with solid communication and project management skills.
+Technology consultant at Deloitte and Computer Engineering Master's student at the University of Minho, delivering platform implementations and legacy-to-cloud migrations for clients in the insurance sector. Progressed from trainee to consultant within a year, contributing across the full delivery cycle from requirements gathering through implementation, testing and production support. Brings team leadership and stakeholder management experience from a senior role at FSUMinho, coordinating operations across departments and owning sponsor relations for a national Formula Student team.
 
 = Education
-
-#resume-entry(
-  title: "Science and Technology",
-  location: "Barcelos, Portugal",
-  date: "2016 - 2021",
-  description: "La Salle College",
-)
 
 #resume-entry(
   title: "Bachelor's Degree in Computer Engineering",
@@ -48,13 +41,6 @@ Master's student in Computer Engineering with proven experience in full-stack de
 = Certifications
 
 #resume-entry(
-  title: "Honor Roll (x6)",
-  location: "Barcelos, Portugal",
-  date: "2014 - 2021",
-  description: "La Salle College",
-)
-
-#resume-entry(
   title: "Certificate in Advanced English (C1)",
   location: "Braga, Portugal",
   date: "2020",
@@ -64,6 +50,54 @@ Master's student in Computer Engineering with proven experience in full-stack de
 = Experience
 
 #resume-entry(
+  title: "Tech Consultant",
+  location: "Braga, Portugal",
+  date: "Sep 2026 - Present",
+  description: "Deloitte",
+)
+
+#resume-item[
+  - Develop and configure Guidewire PolicyCenter and BillingCenter for insurance clients
+  - Migrate lines of business from a legacy platform to a cloud environment
+]
+
+#resume-entry(
+  title: "Tech Analyst",
+  location: "Braga, Portugal",
+  date: "Jul 2026 - Sep 2026",
+  description: "Deloitte",
+)
+
+#resume-item[
+  - Developed and configured Guidewire PolicyCenter and BillingCenter for insurance clients
+  - Supported the migration of lines of business from a legacy platform to a cloud environment
+]
+
+#resume-entry(
+  title: "Trainee",
+  location: "Braga, Portugal",
+  date: "Oct 2025 - Jul 2026",
+  description: "Deloitte",
+)
+
+#resume-item[
+  - Configured Guidewire ClaimCenter and PolicyCenter for client implementations
+  - Provided warranty support on a delivered system, diagnosing and resolving production defects
+  - Wrote unit tests and fixed bugs across the codebase
+]
+
+#resume-entry(
+  title: "U@Deloitte Summer Internship",
+  location: "Braga, Portugal",
+  date: "Jul 2025",
+  description: "Deloitte",
+)
+
+#resume-item[
+  - Built AI-based internal tooling to accelerate the requirements-gathering process
+]
+
+#resume-entry(
   title: "Head of Management",
   location: "Guimarães, Portugal",
   date: "2024 - 2025",
@@ -71,10 +105,10 @@ Master's student in Computer Engineering with proven experience in full-stack de
 )
 
 #resume-item[
-  - Leadership in sponsor relations management and strategic partnerships
-  - Operational coordination between all team departments
-  - Supervision of multidisciplinary projects and resource management
-  - Active participation in Formula Student Portugal 2024 (EV Class)
+  - Led sponsor relations and strategic partnerships for the team
+  - Coordinated day-to-day operations across all team departments
+  - Oversaw multidisciplinary projects and managed resource allocation
+  - Competed in Formula Student Portugal 2024 (EV Class)
 ]
 
 #resume-entry(
@@ -85,38 +119,68 @@ Master's student in Computer Engineering with proven experience in full-stack de
 )
 
 #resume-item[
-  - Strategic management of team social media, increasing engagement
-  - Professional representation of the team at fairs and events
-  - Development and maintenance of the team website
-  - Contribution to 2nd place in Formula Student Portugal 2023 (Concept Class)
-]
-
-#resume-entry(
-  title: "U@Deloitte Summer Internship",
-  location: "Braga, Portugal",
-  date: "Jul 2025",
-  description: "Deloitte - T&T Engineering, AI and Data - FS",
-)
-
-#resume-item[
-  - Development of AI-based tools for DevOps workflow optimization
-  - Implementation of solutions for process improvement
+  - Managed the team's social media channels and grew audience engagement
+  - Represented the team at trade fairs and public events
+  - Built and maintained the team website
+  - Contributed to a 2nd-place finish at Formula Student Portugal 2023 (Concept Class)
 ]
 
 = Technical Projects
 
 #resume-entry(
-  title: "Course Website Generator",
-  location: [#github-link("Duarte0903/EngWeb2024-Projeto")],
-  date: "Jun 2024",
-  description: "University Project - Web Engineering",
+  title: "Claimguard - Claims Fraud Detection",
+  location: "Braga, Portugal",
+  date: "Nov 2025 - Oct 2026",
+  description: "MSc Thesis - University of Minho, in partnership with Deloitte",
 )
 
 #resume-item[
-  - Full-stack platform for automated management of course unit pages
-  - Multi-user system with three access levels (student, teacher, administrator)
-  - Robust architecture with JWT authentication and secure file management
-  - *Stack:* Express.js, MongoDB, JWT, Docker
+  - Multi-agent architecture for detecting fraud in insurance claims, built on Google ADK and the A2A protocol
+  - Router agent dispatches claims to ten specialised sub-agents, from vision forensics to policy verification
+  - Retrieval-augmented analysis of historical claims, with an auditor dashboard for reviewing investigation reports
+  - *Stack:* Python, Google ADK, Gemini, Vertex AI, React
+]
+
+#resume-entry(
+  title: "Ascend",
+  location: [#github-link("Duarte0903/Ascend")],
+  date: "Aug 2026 - Present",
+  description: "Personal Project",
+)
+
+#resume-item[
+  - Native macOS app that tracks net worth from periodic balance snapshots rather than transactions
+  - Dashboard, trend and allocation views, goal tracking and multi-year projections
+  - Layered architecture keeping the calculation engine free of any UI or persistence dependency
+  - *Stack:* Swift, SwiftUI, SwiftData
+]
+
+#resume-entry(
+  title: "Strava Toolkit",
+  location: [#github-link("Duarte0903/strava_toolkit")],
+  date: "Jul 2026 - Aug 2026",
+  description: "Personal Project",
+)
+
+#resume-item[
+  - Converts Samsung Health workout exports into TCX and GPX files for upload to Strava
+  - Normalises two different undocumented export layouts behind a single interface
+  - Desktop app, command-line converters and a native iOS client, covered by unit tests
+  - *Stack:* Python, Tkinter, Swift
+]
+
+#resume-entry(
+  title: "MKTS Terminal",
+  location: [#github-link("Duarte0903/mkts_terminal")],
+  date: "Apr 2026",
+  description: "Personal Project",
+)
+
+#resume-item[
+  - Keyboard-driven terminal dashboard for tracking equities, charts and market news
+  - Side-by-side ticker comparison on normalised return charts
+  - Macro news aggregator that deduplicates headlines across major indices
+  - *Stack:* Python, Textual, yfinance
 ]
 
 #resume-entry(
@@ -127,48 +191,9 @@ Master's student in Computer Engineering with proven experience in full-stack de
 )
 
 #resume-item[
-  - Modern institutional website with contact form and multilingual system
-  - Responsive design and automated deployment via GitHub Pages
+  - Public team website with a contact form and multilingual content
+  - Responsive layout with continuous deployment to GitHub Pages
   - *Stack:* React, Vite, i18next, GitHub Pages
-]
-
-#resume-entry(
-  title: "Online Auction Platform",
-  location: [#github-link("Duarte0903/LI4_UMinho")],
-  date: "Sep 2023 - Jan 2024",
-  description: "University Project - Computer Science Laboratories IV",
-)
-
-#resume-item[
-  - Complete platform for multi-item auctions with administrative dashboard
-  - Implementation of secure authentication and user management
-  - *Stack:* Blazor, SQL Server
-]
-
-#resume-entry(
-  title: "Distributed Transfer Service",
-  location: [#github-link("Duarte0903/CC_UMinho")],
-  date: "Sep 2023 - Dec 2023",
-  description: "University Project - Computer Communications",
-)
-
-#resume-item[
-  - Distributed system for parallel file transfer
-  - Implementation of TCP and UDP protocols for efficient communication
-  - *Stack:* Java, TCP, UDP
-]
-
-#resume-entry(
-  title: "Encrypted Messaging Services",
-  location: [#github-link("Duarte0903/SSI_UMinho")],
-  date: "Feb 2023 - Jun 2023",
-  description: "University Project - Information Systems Security",
-)
-
-#resume-item[
-  - Messaging system with Diffie-Hellman encryption and X.509 certificates
-  - Platform integrated with Linux system (users/groups)
-  - *Stack:* Python, C
 ]
 
 = Technical Skills
@@ -190,7 +215,9 @@ Master's student in Computer Engineering with proven experience in full-stack de
     "Vue.js",
     "Express.js",
     "Blazor",
-    "Node.js"
+    "Node.js",
+    "Guidewire",
+    "Agent Development Kit (ADK)"
   ),
 )
 
@@ -202,6 +229,8 @@ Master's student in Computer Engineering with proven experience in full-stack de
     "SQL Server",
     "JWT",
     "Google Cloud",
+    "Claude Code",
+    "Gemini"
   ),
 )
 

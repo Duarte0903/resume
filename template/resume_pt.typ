@@ -1,4 +1,4 @@
-#import "@preview/modern-cv:0.4.0": *
+#import "../lib.typ": *
 
 #show: resume.with(
   author: (
@@ -20,16 +20,9 @@
 
 = Resumo
 
-Estudante de Mestrado em Engenharia Informática com experiência comprovada em desenvolvimento full-stack, ferramentas de IA e gestão de equipas. Forte histórico de liderança na FSUMinho, excelência académica consistente e experiência na entrega de soluções escaláveis ao nível web e de sistemas. Fluente em Português e Inglês, com competências sólidas em comunicação e gestão de projetos.
+Consultor tecnológico na Deloitte e estudante de Mestrado em Engenharia Informática na Universidade do Minho, com entrega de implementações de plataformas e de migrações de sistemas legados para a cloud para clientes do setor segurador. Progressão de trainee a consultor no espaço de um ano, com contributo em todo o ciclo de entrega, do levantamento de requisitos à implementação, testes e suporte em produção. Traz experiência de liderança de equipas e de gestão de stakeholders de um cargo sénior na FSUMinho, coordenando operações entre departamentos e assumindo as relações com patrocinadores de uma equipa nacional de Formula Student.
 
 = Educação
-
-#resume-entry(
-  title: "Ciências e Tecnologias",
-  location: "Barcelos, Portugal",
-  date: "2016 - 2021",
-  description: "Colégio La Salle",
-)
 
 #resume-entry(
   title: "Licenciatura em Engenharia Informática",
@@ -48,13 +41,6 @@ Estudante de Mestrado em Engenharia Informática com experiência comprovada em 
 = Certificações
 
 #resume-entry(
-  title: "Quadro de Excelência (x6)",
-  location: "Barcelos, Portugal",
-  date: "2014 - 2021",
-  description: "Colégio La Salle",
-)
-
-#resume-entry(
   title: "Certificate in Advanced English (C1)",
   location: "Braga, Portugal",
   date: "2020",
@@ -64,6 +50,54 @@ Estudante de Mestrado em Engenharia Informática com experiência comprovada em 
 = Experiência
 
 #resume-entry(
+  title: "Tech Consultant",
+  location: "Braga, Portugal",
+  date: "Set 2026 - Presente",
+  description: "Deloitte",
+)
+
+#resume-item[
+  - Desenvolvimento e configuração de Guidewire PolicyCenter e BillingCenter para clientes do setor segurador
+  - Migração de linhas de negócio de uma plataforma legada para um ambiente cloud
+]
+
+#resume-entry(
+  title: "Tech Analyst",
+  location: "Braga, Portugal",
+  date: "Jul 2026 - Set 2026",
+  description: "Deloitte",
+)
+
+#resume-item[
+  - Desenvolvimento e configuração de Guidewire PolicyCenter e BillingCenter para clientes do setor segurador
+  - Apoio na migração de linhas de negócio de uma plataforma legada para um ambiente cloud
+]
+
+#resume-entry(
+  title: "Trainee",
+  location: "Braga, Portugal",
+  date: "Out 2025 - Jul 2026",
+  description: "Deloitte",
+)
+
+#resume-item[
+  - Configuração de Guidewire ClaimCenter e PolicyCenter em implementações para clientes
+  - Suporte de garantia num sistema entregue, diagnosticando e resolvendo defeitos em produção
+  - Escrita de testes unitários e correção de bugs no código
+]
+
+#resume-entry(
+  title: "Estágio de Verão U@Deloitte",
+  location: "Braga, Portugal",
+  date: "Jul 2025",
+  description: "Deloitte",
+)
+
+#resume-item[
+  - Desenvolvimento de ferramentas internas baseadas em IA para acelerar o processo de levantamento de requisitos
+]
+
+#resume-entry(
   title: "Head of Management",
   location: "Guimarães, Portugal",
   date: "2024 - 2025",
@@ -71,10 +105,10 @@ Estudante de Mestrado em Engenharia Informática com experiência comprovada em 
 )
 
 #resume-item[
-  - Liderança na gestão de relações com patrocinadores e parcerias estratégicas
-  - Coordenação operacional entre todos os departamentos da equipa
-  - Supervisão de projetos multidisciplinares e gestão de recursos
-  - Participação ativa na Formula Student Portugal 2024 (Classe EV)
+  - Liderança das relações com patrocinadores e das parcerias estratégicas da equipa
+  - Coordenação das operações diárias entre todos os departamentos da equipa
+  - Supervisão de projetos multidisciplinares e gestão da alocação de recursos
+  - Participação na Formula Student Portugal 2024 (Classe EV)
 ]
 
 #resume-entry(
@@ -85,38 +119,68 @@ Estudante de Mestrado em Engenharia Informática com experiência comprovada em 
 )
 
 #resume-item[
-  - Gestão estratégica das redes sociais da equipa, aumentando o engagement
-  - Representação profissional da equipa em feiras e eventos
+  - Gestão das redes sociais da equipa, com crescimento do engagement
+  - Representação da equipa em feiras e eventos públicos
   - Desenvolvimento e manutenção do website da equipa
-  - Contribuição para o 2º lugar na Formula Student Portugal 2023 (Classe Concept)
-]
-
-#resume-entry(
-  title: "Estágio de Verão U@Deloitte",
-  location: "Braga, Portugal",
-  date: "Jul 2025",
-  description: "Deloitte - T&T Engineering, AI and Data - FS",
-)
-
-#resume-item[
-  - Desenvolvimento de ferramentas baseadas em IA para otimização de workflows DevOps
-  - Implementação de soluções para melhoria de processos
+  - Contributo para o 2º lugar na Formula Student Portugal 2023 (Classe Concept)
 ]
 
 = Projetos Técnicos
 
 #resume-entry(
-  title: "Gerador de Sites de UCs",
-  location: [#github-link("Duarte0903/EngWeb2024-Projeto")],
-  date: "Jun 2024",
-  description: "Projeto Universitário - Engenharia Web",
+  title: "Claimguard - Deteção de Fraude em Sinistros",
+  location: "Braga, Portugal",
+  date: "Nov 2025 - Out 2026",
+  description: "Dissertação de Mestrado - Universidade do Minho, em parceria com a Deloitte",
 )
 
 #resume-item[
-  - Plataforma full-stack para gestão automatizada de páginas de unidades curriculares
-  - Sistema multi-utilizador com três níveis de acesso (aluno, docente, administrador)
-  - Arquitetura robusta com autenticação JWT e gestão segura de ficheiros
-  - *Stack:* Express.js, MongoDB, JWT, Docker
+  - Arquitetura multiagente para deteção de fraude em sinistros de seguros, assente no Google ADK e no protocolo A2A
+  - Agente router que encaminha sinistros para dez subagentes especializados, da análise forense de imagem à verificação de apólices
+  - Análise aumentada por recuperação de sinistros históricos, com dashboard de auditoria para revisão dos relatórios de investigação
+  - *Stack:* Python, Google ADK, Gemini, Vertex AI, React
+]
+
+#resume-entry(
+  title: "Ascend",
+  location: [#github-link("Duarte0903/Ascend")],
+  date: "Ago 2026 - Presente",
+  description: "Projeto Pessoal",
+)
+
+#resume-item[
+  - Aplicação nativa para macOS que acompanha o património líquido a partir de registos periódicos de saldos, em vez de transações
+  - Vistas de dashboard, tendências e alocação, acompanhamento de objetivos e projeções plurianuais
+  - Arquitetura em camadas que mantém o motor de cálculo livre de dependências de interface ou de persistência
+  - *Stack:* Swift, SwiftUI, SwiftData
+]
+
+#resume-entry(
+  title: "Strava Toolkit",
+  location: [#github-link("Duarte0903/strava_toolkit")],
+  date: "Jul 2026 - Ago 2026",
+  description: "Projeto Pessoal",
+)
+
+#resume-item[
+  - Converte exportações de treinos da Samsung Health em ficheiros TCX e GPX para carregamento no Strava
+  - Normaliza dois formatos de exportação não documentados diferentes por trás de uma única interface
+  - Aplicação de desktop, conversores de linha de comandos e cliente nativo iOS, cobertos por testes unitários
+  - *Stack:* Python, Tkinter, Swift
+]
+
+#resume-entry(
+  title: "MKTS Terminal",
+  location: [#github-link("Duarte0903/mkts_terminal")],
+  date: "Abr 2026",
+  description: "Projeto Pessoal",
+)
+
+#resume-item[
+  - Dashboard de terminal, navegável por teclado, para acompanhar ações, gráficos e notícias de mercado
+  - Comparação lado a lado de tickers em gráficos de retorno normalizado
+  - Agregador de notícias macro que elimina duplicados entre os principais índices
+  - *Stack:* Python, Textual, yfinance
 ]
 
 #resume-entry(
@@ -127,48 +191,9 @@ Estudante de Mestrado em Engenharia Informática com experiência comprovada em 
 )
 
 #resume-item[
-  - Website institucional moderno com formulário de contacto e sistema multilingue
-  - Design responsivo e deployment automatizado via GitHub Pages
+  - Website público da equipa com formulário de contacto e conteúdo multilingue
+  - Layout responsivo com deployment contínuo para GitHub Pages
   - *Stack:* React, Vite, i18next, GitHub Pages
-]
-
-#resume-entry(
-  title: "Plataforma de Leilões Online",
-  location: [#github-link("Duarte0903/LI4_UMinho")],
-  date: "Set 2023 - Jan 2024",
-  description: "Projeto Universitário - Laboratórios de Informática IV",
-)
-
-#resume-item[
-  - Plataforma completa para leilões multi-item com dashboard administrativo
-  - Implementação de autenticação segura e gestão de utilizadores
-  - *Stack:* Blazor, SQL Server
-]
-
-#resume-entry(
-  title: "Serviço de Transferência Distribuída",
-  location: [#github-link("Duarte0903/CC_UMinho")],
-  date: "Set 2023 - Dez 2023",
-  description: "Projeto Universitário - Comunicações por Computador",
-)
-
-#resume-item[
-  - Sistema distribuído para transferência paralela de ficheiros
-  - Implementação de protocolos TCP e UDP para comunicação eficiente
-  - *Stack:* Java, TCP, UDP
-]
-
-#resume-entry(
-  title: "Serviços de Mensagens Encriptadas",
-  location: [#github-link("Duarte0903/SSI_UMinho")],
-  date: "Fev 2023 - Jun 2023",
-  description: "Projeto Universitário - Segurança de Sistemas Informáticos",
-)
-
-#resume-item[
-  - Sistema de mensagens com encriptação Diffie-Hellman e certificados X.509
-  - Plataforma integrada com sistema Linux (utilizadores/grupos)
-  - *Stack:* Python, C
 ]
 
 = Competências Técnicas
@@ -190,7 +215,9 @@ Estudante de Mestrado em Engenharia Informática com experiência comprovada em 
     "Vue.js",
     "Express.js",
     "Blazor",
-    "Node.js"
+    "Node.js",
+    "Guidewire",
+    "Agent Development Kit (ADK)"
   ),
 )
 
@@ -202,6 +229,8 @@ Estudante de Mestrado em Engenharia Informática com experiência comprovada em 
     "SQL Server",
     "JWT",
     "Google Cloud",
+    "Claude Code",
+    "Gemini"
   ),
 )
 

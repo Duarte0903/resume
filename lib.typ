@@ -1,5 +1,5 @@
 #import "@preview/fontawesome:0.2.1": *
-#import "@preview/linguify:0.4.0": *
+#import "@preview/linguify:0.4.2": *
 
 // const color
 #let color-darknight = rgb("#131A28")
@@ -177,7 +177,7 @@
           #linguify("resume", from: lang_data)
         ]
       ][
-        #counter(page).display()
+        #context counter(page).display()
       ]
     ],
     footer-descent: 0pt,
@@ -470,7 +470,7 @@
           #linguify("cover-letter", from: lang_data)
         ]
       ][
-        #counter(page).display()
+        #context counter(page).display()
       ]
     ],
     footer-descent: 0pt,
